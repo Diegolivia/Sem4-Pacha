@@ -288,7 +288,6 @@ progress[value]::-webkit-progress-value {
     
 }
 
-
 #portafolio div figure img{
     width: 100%;
 }
@@ -303,7 +302,7 @@ progress[value]::-webkit-progress-value {
 /*==================================================CLIENTES=======================================================*/
 
 #clientes {
-    min-height: 300px;
+    min-height: 150px;
     background-color: #3F4E62;
 }
 
