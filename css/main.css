@@ -78,7 +78,7 @@
     animation-name: zoomIn;
 }
 
-/*============================CSSS PRINCIPAL*/
+/*======================================================CSSS PRINCIPAL====================================================*/
 
 body {
     background-color: whitesmoke;
@@ -112,7 +112,7 @@ h2 {
     line-height: 41px;
 }
 
-/*=========== BIENVENIDA ==============*/
+/*===================================== BIENVENIDA ========================================*/
 
 #welcome {
     background-color: white;
@@ -136,7 +136,7 @@ h2 {
     font-size: 25px;
 }
 
-/*=========== SOBRE MI ==============*/
+/*============================ SOBRE MI ====================================*/
 
 #about {
     background-color: #7299FE;
@@ -175,7 +175,7 @@ h2 {
     animation-name: tada;
 }
 
-/*=========== SKILLS ==============*/
+/*================================== SKILLS ========================================*/
 
 #skills {
     background-color: #9122FF;
@@ -263,44 +263,73 @@ progress[value]::-webkit-progress-value {
     display: block;
 }
 
-/*==================== PORTAFOLIO =====================*/
+/*============================================== PORTAFOLIO ===============================================*/
 
 #portafolio {
     background-color: #FFD233;
 }
 
-.imagenes {
+#portafolio div{
     margin: 0;
     padding: 0;
-    display: inline;
+    display: block;
+    width: 100%;
 }
 
-/*========================CLIENTES=============================*/
 
-#clientes {
-    min-height: 300px;
-    background-color: #3F4E62;
-}
-
-.client {
+#portafolio div figure{
     position: relative;
     display: inline-block;
-    width: 17%;
+    width: 20%;
     height: 45px;
     border: black;
     border-radius: 1px;
-    margin: 3%;
-    background-color: white;
+    margin: 1.5%;
+    
 }
 
-.client:hover {
+
+#portafolio div figure img{
+    width: 100%;
+}
+
+#portafolio div figure img:hover {
     -webkit-animation-duration: 0.75s;
     animation-duration: 0.75s;
     -webkit-animation-name: zoomIn;
     animation-name: zoomIn;
 }
 
-/*===================== CONTACTO =======================*/
+/*==================================================CLIENTES=======================================================*/
+
+#clientes {
+    min-height: 300px;
+    background-color: #3F4E62;
+}
+
+.ClientImg figure {
+    position: relative;
+    display: inline-block;
+    width: 22%;
+    height: 45px;
+    border: black;
+    border-radius: 1px;
+    margin: 1%;
+    
+}
+
+.ClientImg img{
+    width: 100%;
+}
+
+.ClientImg img:hover {
+    -webkit-animation-duration: 0.75s;
+    animation-duration: 0.75s;
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+
+/*=============================================== CONTACTO =================================================*/
 
 #contact {
     background-color: #1687A0;
