@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas html</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <main>
+        <section id="welcome" style="padding: 0px ; min-height: 100px;">
+            <div class="contenedor">
+                <img class="foto" src="image/Mask Group.png">
+                <div class="bloque">
+                    <h1>Pachaqtec</h1>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>Sobre mi</h2>
+            <p class="txtblq"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, veniam molestiae.
+                Repudiandae ab
+                commodi quibusdam quidem dolores modi placeat voluptate, pariatur alias similique adipisci sed
+                eos
+                maxime nobis vero necessitatibus!Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, veniam
+                molestiae. Repudiandae ab
+                commodi quibusdam quidem dolores modi placeat voluptate, pariatur alias similique adipisci sed
+                eos
+                maxime nobis vero necessitatibus!Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, veniam
+                molestiae. Repudiandae ab
+                commodi quibusdam quidem dolores modi placeat voluptate, pariatur alias similique adipisci sed
+                eos
+                maxime nobis vero necessitatibus!</p>
+
+            <button onclick="location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';" class="buttonCV">Ver
+                CV</button>
+        </section>
+        <section id="skills">
+            <h2>Mis Skills</h2>
+            <div class="two-col">
+                <div class="col1">
+                    <label>HTML</label>
+                    <progress clas="prog" value="40" max="100"></progress>
+                    <label>Javascript</label>
+                    <progress clas="prog" value="50" max="100"></progress>
+                    <label>Flexbox</label>
+                    <progress clas="prog" value="50" max="100"></progress>
+                </div>
+                <div class="col2">
+                    <label>CSS</label>
+                    <div class="progress">
+                        <span class="mark"></span>
+                     </div>
+                    <label>Vue</label>
+                    <div class="progress">
+                        <span class="mark" ></span>
+                     </div>
+                    <label>CSS Grid</label>
+                    <div class="progress">
+                        <span class="mark" ></span>
+                     </div>
+                </div>
+            </div>
+        </section>
+        <section id="portafolio">
+            <h2>Portafolio</h2>
+            <div class="imagenes">
+                <figure><img src="image/image-4.png" alt=""></figure>
+                <figure><img src="image/image-5.png" alt=""></figure>
+                <figure><img src="image/image-6.png" alt=""></figure>
+                <figure><img src="image/image-7.png" alt=""></figure>
+            </div>
+            <div>
+                <figure><img src="image/image-8.png" alt=""></figure>
+                <figure><img src="image/image-9.png" alt=""></figure>
+                <figure><img src="image/image-10.png" alt=""></figure>
+                <figure><img src="image/image-11.png" alt=""></figure>
+            </div>
+        </section>
+        <section id="clientes">
+            <h2>Clientes</h2>
+            <div class="imagenes">
+                <div>
+                    <figure><img src="image/image.png" alt=""></figure>
+                    <figure><img src="image/image-1.png" alt=""></figure>
+                    <figure><img src="image/image-2.png" alt=""></figure>
+                    <figure><img src="image/image-3.png" alt=""></figure>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form action="#" method="GET">
+                <div>
+                    <input required name="nombre" type="text" pattern="[A-Za-z]+" placeholder="*Nombre">
+                    <input name="apellido" type="text" pattern="[A-Za-z]+" placeholder="Apellido">
+                </div>
+                <div>
+                    <input required name="email" type="email" placeholder="*Email">
+                    <input required name="telefono" type="text" pattern="([0-9]){8}" placeholder="*Telefono">
+                </div>
+                <div>
+                    <textarea name="message" placeholder="Escribemos un breve mensaje"></textarea>
+                </div>
+                <label style="text-align: left;">*Estos campos son obligatorios</label>
+                <div>
+                    <button class="ContactEnviar" type="submit">Enviar</button>
+                </div>
+
+            </form>
+        </section>
+
+    </main>
+</body>
+
+</html>
